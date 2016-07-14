@@ -86,6 +86,7 @@ header {
 }
 
 .columns {
+  clear: both;
   margin: 6% 3px 6% 6%;
 }
 
@@ -93,8 +94,6 @@ header {
   display: inline-block;
   width: 30%;
   margin-right: 20px;
-
-  /*background-color: #2E2C29;*/
 }
 
 .column h4 {
@@ -131,9 +130,7 @@ header {
 footer {
   box-sizing: border-box;
   display: block;
-  vertical-align: middle;
 
-  /*position: absolute;*/
   right: 0;
   bottom: 0;
   left: 0;
